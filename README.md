@@ -76,6 +76,6 @@ Python:
 ```py
 @dataclass
 class Rectangle:
-     width: float
      height: float
+     width: float
 ```
