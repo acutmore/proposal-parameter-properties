@@ -21,6 +21,17 @@ class Rectangle {
 }
 ```
 
+### Private fields
+
+```js
+class Rectangle {
+  constructor(this #height, this #width) {}
+  
+  get height() { return this.#height; }
+  get width() { return this.#width; }
+}
+```
+
 ## Alternative Syntax
 
 ### this.
