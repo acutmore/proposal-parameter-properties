@@ -33,6 +33,14 @@ class Rectangle {
 
 This would be similar to existing destructing syntax `[this.height, this.width] = arguments` but unclear if the behaviour would be different in a constructor where it might also add the named bindings of `height` and `width` to the constructor's scope.
 
+This could be combined with the [proposal-as-patterns](https://github.com/zkat/proposal-as-patterns)
+
+```js
+class Rectangle {
+  constructor(this.height as height, this.width as width) {}
+}
+```
+
 ### public keyword
   
 ```js
