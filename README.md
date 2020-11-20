@@ -2,6 +2,10 @@
 
 Being able to declaratively add fields to a class that are initalised with values passed to the constructor
 
+[Discussion on es.discourse.group](https://es.discourse.group/t/class-property-parameters/543)
+
+### Example
+
 ```js
 class Rectangle {
   constructor(this height, this width) {}
